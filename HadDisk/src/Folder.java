@@ -7,5 +7,9 @@ public class Folder {
 	this.name = name;
 	this.numfiles = numfiles;
 	}
-
+	void AddFile()
+	{
+	numfiles++;
+	}
+	
 }
